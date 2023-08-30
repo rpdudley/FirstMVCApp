@@ -4,9 +4,9 @@ namespace FirstMVCApp.Controllers
 {
     public class HelloWorldController : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            return "Hello this is Ryan!";
+            return View();
 
         }
         public string Hello()
