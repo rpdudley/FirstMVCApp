@@ -12,6 +12,10 @@ namespace FirstMVCApp.Controllers
             return View(doggo);
 
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
         public string Hello()
         {
             return "Hello Ryan!";
